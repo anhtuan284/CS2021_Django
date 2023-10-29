@@ -1,6 +1,9 @@
+from ckeditor_uploader import forms
+from ckeditor_uploader.widgets import CKEditorUploadingWidget
 from django.contrib import admin
 from .models import Category, Course, Lesson, Tag
 from django.utils.html import mark_safe
+from django import forms
 
 # Register your models here.
 
@@ -10,6 +13,13 @@ class CategoryAdmin(admin.ModelAdmin):
     search_fields = ['name']
     list_filter = ['id', 'name']
 
+
+class LessonForm(forms.ModelForm):
+    content = forms.CharField(widget=CKEditorUploadingWidget)
+
+    class Meta:
+        model = Lesson
+        fields = '__all__'
 
 class CourseAdmin(admin.ModelAdmin):
     list_display = ['id', 'subject', 'description']
@@ -24,6 +34,7 @@ class CourseAdmin(admin.ModelAdmin):
 
 
 class LessonAdmin(admin.ModelAdmin):
+    form = LessonForm
 
     class Media:
         css = {
