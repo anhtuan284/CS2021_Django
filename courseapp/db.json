@@ -1,0 +1,296 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-10-29T15:32:24.881Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "critical",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-10-29T15:32:46.552Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "intermediate",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-10-29T15:32:53.092Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "beginer",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-10-29T15:35:36.957Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "1",
+    "object_repr": "AI",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-10-29T15:36:03.098Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "Software",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-10-29T15:38:44.106Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Fundamental Neural Network",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-10-29T15:39:46.351Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Neural Network",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-10-29T15:41:38.163Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Photoshop",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-10-29T15:42:50.353Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Photoshop tools",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-10-29T16:06:09.357Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Math for Machine Learning",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "465eoxer64h7ikbd4kd3ec37jrl68vgi",
+  "fields": {
+    "session_data": ".eJxVjEsOwiAUAO_C2pDyB5fuewbyeA-kamhS2pXx7oakC93OTObNIhx7jUfPW1yIXZlgl1-WAJ-5DUEPaPeV49r2bUl8JPy0nc8r5dftbP8GFXodW20DSFVQGkRjCk1AKAs57bwHZYOf0CifrC2oCyBorYJ1IFwiUSizzxfq8jhr:1qx7ZK:lvJlguH9cz5U2OmWjdrgAEgWO4vf0JoDFmW7WhFOX30",
+    "expire_date": "2023-11-12T15:19:14.506Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "n2vdu0cn0e9esfb833gbnj5qmigg3mbj",
+  "fields": {
+    "session_data": ".eJxVjEsOwiAUAO_C2pDyB5fuewbyeA-kamhS2pXx7oakC93OTObNIhx7jUfPW1yIXZlgl1-WAJ-5DUEPaPeV49r2bUl8JPy0nc8r5dftbP8GFXodW20DSFVQGkRjCk1AKAs57bwHZYOf0CifrC2oCyBorYJ1IFwiUSizzxfq8jhr:1qx7lK:WrN_MVH5i0C4bFN_X-QeEQX1TDRVAQsWS1FvlWplU0U",
+    "expire_date": "2023-11-12T15:31:38.265Z"
+  }
+},
+{
+  "model": "courses.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$zT7Aa6KqlutKkOh4egjf1t$kAEbWAEBO9XgbGJl7yOFk6sgRwd8r4ek6cHgoH4JE4w=",
+    "last_login": "2023-10-29T15:31:38.263Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "at@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-10-29T15:16:47.827Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "courses.category",
+  "pk": 1,
+  "fields": {
+    "created_date": "2023-10-29",
+    "update_date": "2023-10-29",
+    "active": true,
+    "name": "AI"
+  }
+},
+{
+  "model": "courses.category",
+  "pk": 2,
+  "fields": {
+    "created_date": "2023-10-29",
+    "update_date": "2023-10-29",
+    "active": true,
+    "name": "Software"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 1,
+  "fields": {
+    "created_date": "2023-10-29",
+    "update_date": "2023-10-29",
+    "active": true,
+    "subject": "Fundamental Neural Network",
+    "description": "Basic Concept of Neural Network",
+    "image": "courses/2023/10/street.jpg",
+    "category": 1,
+    "tags": [
+      2
+    ]
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 2,
+  "fields": {
+    "created_date": "2023-10-29",
+    "update_date": "2023-10-29",
+    "active": true,
+    "subject": "Photoshop",
+    "description": "Convert your idea to real vision",
+    "image": "courses/2023/10/pts.jpg",
+    "category": 2,
+    "tags": [
+      3
+    ]
+  }
+},
+{
+  "model": "courses.lesson",
+  "pk": 1,
+  "fields": {
+    "created_date": "2023-10-29",
+    "update_date": "2023-10-29",
+    "active": true,
+    "subject": "Neural Network",
+    "content": "<p>Single layer network</p>",
+    "image": "lessons/2023/10/house.jpg",
+    "course": 1,
+    "tags": [
+      1
+    ]
+  }
+},
+{
+  "model": "courses.lesson",
+  "pk": 2,
+  "fields": {
+    "created_date": "2023-10-29",
+    "update_date": "2023-10-29",
+    "active": true,
+    "subject": "Photoshop tools",
+    "content": "<p><strong>Photoshop tools:&nbsp;</strong>how it arrange the layer</p>",
+    "image": "lessons/2023/10/bed.jpg",
+    "course": 2,
+    "tags": [
+      3
+    ]
+  }
+},
+{
+  "model": "courses.lesson",
+  "pk": 3,
+  "fields": {
+    "created_date": "2023-10-29",
+    "update_date": "2023-10-29",
+    "active": true,
+    "subject": "Math for Machine Learning",
+    "content": "<p>Complexity, BigO, Poision, Statistic, Distribution<img alt=\"\" src=\"/images/lessons/2023/10/29/math.jpg\" /><img alt=\"\" src=\"/static/images/lessons/2023/10/29/street.jpg\" style=\"height:1440px; width:1080px\" /></p>",
+    "image": "lessons/2023/10/house_EHiR88T.jpg",
+    "course": 1,
+    "tags": [
+      2
+    ]
+  }
+},
+{
+  "model": "courses.tag",
+  "pk": 1,
+  "fields": {
+    "created_date": "2023-10-29",
+    "update_date": "2023-10-29",
+    "active": true,
+    "name": "critical"
+  }
+},
+{
+  "model": "courses.tag",
+  "pk": 2,
+  "fields": {
+    "created_date": "2023-10-29",
+    "update_date": "2023-10-29",
+    "active": true,
+    "name": "intermediate"
+  }
+},
+{
+  "model": "courses.tag",
+  "pk": 3,
+  "fields": {
+    "created_date": "2023-10-29",
+    "update_date": "2023-10-29",
+    "active": true,
+    "name": "beginer"
+  }
+}
+]
