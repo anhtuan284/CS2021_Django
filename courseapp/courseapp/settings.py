@@ -30,6 +30,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+MEDIA_ROOT = '%s/courses/static/' % BASE_DIR
+CKEDITOR_UPLOAD_PATH = "images/lessons/"
 
 # Application definition
 
@@ -41,6 +43,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'courses.apps.CoursesConfig',
+    'ckeditor',
+    'ckeditor_uploader',
 
 ]
 
