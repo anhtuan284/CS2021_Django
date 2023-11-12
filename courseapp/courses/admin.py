@@ -1,6 +1,10 @@
 from ckeditor_uploader import forms
 from ckeditor_uploader.widgets import CKEditorUploadingWidget
 from django.contrib import admin
+from django.db.models import Count
+from django.template.response import TemplateResponse
+from django.urls import path
+
 from .models import Category, Course, Lesson, Tag
 from django.utils.html import mark_safe
 from django import forms
@@ -20,6 +24,7 @@ class LessonForm(forms.ModelForm):
     class Meta:
         model = Lesson
         fields = '__all__'
+
 
 class CourseAdmin(admin.ModelAdmin):
     list_display = ['id', 'subject', 'description']
@@ -43,7 +48,21 @@ class LessonAdmin(admin.ModelAdmin):
         js = ('/static/js/script.js', )
 
 
-admin.site.register(Course, CourseAdmin)
-admin.site.register(Category, CategoryAdmin)
-admin.site.register(Lesson, LessonAdmin)
-admin.site.register(Tag)
+class CourseAppAdminSite(admin.AdminSite):
+    site_header = 'iSuccess'
+
+    def get_urls(self):
+        return [
+            path('course-stats/', self.stats_view)
+        ] + super().get_urls()
+
+    def stats_view(self, request):
+        return TemplateResponse(request, 'admin/stats.html')
+
+
+admin_site = CourseAppAdminSite(name='myapp')
+
+admin_site.register(Course, CourseAdmin)
+admin_site.register(Category, CategoryAdmin)
+admin_site.register(Lesson, LessonAdmin)
+admin_site.register(Tag)
